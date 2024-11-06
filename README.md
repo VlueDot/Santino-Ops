@@ -47,3 +47,6 @@ source venv/bin/activate
 . env/bin/activate
 nodeenv -p
 ```
+
+## Emulate environment
+
