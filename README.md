@@ -20,3 +20,18 @@ nodeenv -p
 pip freeze > requirements.txt 
 freeze nrequirements.txt
 ```
+
+```
+nvm use 20
+pyenv install
+pyenv local $(< .python-version)
+cd functions
+pip install -r requirements.txt
+pip install --upgrade pip
+python -m venv venv 
+source venv/bin/activate
+. env/bin/activate
+nodeenv -p
+nodeenv -r nrequirements.txt --update env 
+```
+
