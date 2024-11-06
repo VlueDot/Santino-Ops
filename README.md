@@ -41,3 +41,9 @@ nodeenv -p
 nodeenv -r nrequirements.txt --update env 
 ```
 
+## Initialize terminal
+```
+source venv/bin/activate
+. env/bin/activate
+nodeenv -p
+```
