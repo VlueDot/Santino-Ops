@@ -1,2 +1,2 @@
 corepack@0.29.4
-firebase-tools@13.22.0
+firebase-tools@13.24.2

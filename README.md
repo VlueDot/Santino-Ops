@@ -49,4 +49,4 @@ nodeenv -p
 ```
 
 ## Emulate environment
-
+firebase emulators:start --only functions
